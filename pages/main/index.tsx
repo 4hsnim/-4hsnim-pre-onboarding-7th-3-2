@@ -1,10 +1,10 @@
 import type { NextPage } from "next";
-import Templates from "../components/templates";
+import Templates from "../../components/templates";
 
 const Home: NextPage = () => {
   return (
     <>
-      <Templates.FormTemplate />
+      <Templates.MainTemplate />
     </>
   );
 };
